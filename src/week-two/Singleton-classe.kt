@@ -65,6 +65,8 @@ object Game{
         counter++
         println(counter)
     }
+
+    //test
 }
 
 //This is a regular class, the different between it and singletons is that you can create multiple instant of it
