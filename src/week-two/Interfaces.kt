@@ -28,14 +28,14 @@ interface Shape{
 
     //Variables and functions are called members
 
-    abstract val shapeName: String
+    val shapeName: String
     val shapeColor: String
     //When you declare a function you can write the whole function head 'Signature'.
     //Functions can't have a body 'implementation'
     //but any class that will implement this interface needs to implement all of it's functions
     fun info()
 
-    fun computedArea(): Double
+    fun computedArea(): Double 
 
 }
 
